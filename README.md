@@ -57,3 +57,131 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# 🛍️ NovaWear | Fashion Store
+
+A modern fashion e-commerce website built with Laravel and PHP, providing a stylish and user-friendly online shopping experience.
+
+## 🚀 Features
+
+- 🔐 User Registration and Login
+- 👗 Browse Fashion Products
+- 🔎 Product Search Functionality
+- 🛒 Shopping Cart Management
+- 💳 Checkout Interface
+- 💰 Sri Lankan Rupees (LKR) Currency
+- 🗄️ MySQL Database Integration
+- 📱 Responsive User Interface
+- 🎨 Modern Fashion Store Design
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
+- **Backend:** PHP, Laravel
+- **Database:** MySQL
+- **Development Environment:** XAMPP
+- **Version Control:** Git and GitHub
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/novawear.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd novawear
+```
+
+### 3. Install Dependencies
+
+```bash
+composer install
+```
+
+### 4. Configure Environment
+
+```bash
+copy .env.example .env
+php artisan key:generate
+```
+
+### 5. Configure the Database
+
+Create a MySQL database named `novawear_db` using phpMyAdmin.
+
+Update your `.env` file:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=novawear_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Import your existing database SQL file, or run Laravel migrations if your project includes them:
+
+```bash
+php artisan migrate
+```
+
+### 6. Run the Application
+
+```bash
+php artisan serve
+```
+
+Open your browser and visit:
+
+http://127.0.0.1:8000
+
+## 📂 Project Structure
+
+```text
+novawear/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+│   └── views/
+├── routes/
+├── storage/
+├── tests/
+├── .env.example
+├── artisan
+├── composer.json
+└── README.md
+```
+
+## 🔒 Security
+
+- Never upload `.env` or private credentials to GitHub.
+- Keep database passwords and secret keys secure.
+- Ensure `.env` is included in `.gitignore`.
+
+## 🔮 Future Enhancements
+
+- Admin Dashboard
+- Order Management
+- Online Payment Integration
+- Product Reviews and Ratings
+- Wishlist Functionality
+
+## 👨‍💻 Author
+
+**Shakya Rajapaksha**
+
+BSc Information Technology Undergraduate | Full-Stack Developer
+
+## 📄 License
+
+Developed for educational and portfolio purposes.
+
